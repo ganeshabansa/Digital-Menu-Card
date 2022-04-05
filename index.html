@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <style>
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+    body {
+        margin: 0 0 50px;
+    }
+    .bottom-footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 50px;
+        width: 100%;
+    }
+
+      td, th {
+      border: 0px  #F8f9f9;
+      padding: 4px;
+      border-width: 10px;
+      }
+
+      body {
+      background-image: url('img/menu3.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+  
+  <title>MenuCard</title>
+
+  <!-- meta tag -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+</head>
+<body>
+  <!-- Title -->
+  <div class="container-fluid">
+    <h2 class="text-center mt-3" style="font-family: Palatino Linotype, Book Antiqua, Palatino, serif; font-size: 1cm;">MenuCard</h2>
+    <h6 class="text-center font-weight-normal mt-2 font-weight-bold" style="font-family: Arial, Helvetica, sans-serif; color:#795548;">"Enjoy The Healthy Meal"</h6>
+  </div>
+  <hr>
+  
+  <!-- Table -->
+  <div class="container-fluid" style="padding: 1.5cm;">
+    <div class="accordion" id="accordionExample">
+
+      <div class="card bg-success">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-default btn-lg btn-block bg-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><b>Veg Soups</b></button>
+          </h5>
+        </div>
+      </div>
+
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">      
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Tomato Soup</th>
+              <th class=" text-center shadow" scope="row">₹145.00</th>
+            <tr>
+              <th scope="row" >Veg Sweet Corn Soup</th>
+              <th class=" text-center shadow" scope="row">₹155.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Veg Hot & Corn Soup</th>
+              <th class="text-center shadow" scope="row">₹155.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Veg Monchaw Soup</th>
+              <th class="text-center shadow" scope="row">₹155.00</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card bg-warning"style="background-color: #DC7633;">
+        <div class="card-header" id="heading2">
+          <h5 class="mb-0">
+            <button class="btn btn-default btn-lg btn-block bg-white" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2"><b>Non-Veg Soups</b></button>
+          </h5>
+        </div>
+      </div>
+
+      <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">      
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Chicken Soup</th>
+              <th class="text-center shadow" scope="row">₹155.00</th>
+            <tr>
+              <th scope="row" >Chicken Sweet Corn Soup</th>
+              <th class="text-center shadow" scope="row">₹180.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Mutton Soup</th>
+              <th class="text-center shadow" scope="row">₹190.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Chicken Hot & Sour Soup</th>
+              <th class="text-center shadow" scope="row">₹180.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Chicken Manchow Soup</th>
+              <th class="text-center shadow" scope="row">₹180.00</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card" style="background-color: #5DADE2 ;" >
+        <div class="card-header" id="heading3">
+          <h5 class="mb-0">
+            <button class="btn btn-default btn-lg btn-block bg-white" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3"><b>Snacks</b></button>
+          </h5>
+        </div>
+      </div>
+
+      <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">      
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Veg Sandwich</th>
+              <th class="text-center shadow" scope="row">₹115.00</th>
+            <tr>
+              <th scope="row" >Chicken Sandwich</th>
+              <th class="text-center shadow" scope="row">₹150.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Veg Pakoda</th>
+              <th class="text-center shadow" scope="row">₹130.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Onion Pakoda</th>
+              <th class="text-center shadow" scope="row">₹130.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Panner Kurkure</th>
+              <th class="text-center shadow" scope="row">₹260.00</th>
+            <tr>
+              <th scope="row" >Panner Pakoda</th>
+              <th class="text-center shadow" scope="row">₹230.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Finger Chips</th>
+              <th class="text-center shadow" scope="row">₹120.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Green Peas Oil Fry / Masala Dry</th>
+              <th class="text-center shadow" scope="row">₹160.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Chana Oil Fry / Masala Dry</th>
+              <th class="text-center shadow" scope="row">₹160.00</th>
+            <tr>
+              <th scope="row" >Garlic Fry</th>
+              <th class="text-center shadow" scope="row">₹140.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Kaju Fry</th>
+              <th class="text-center shadow" scope="row">₹230.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Masala Papad</th>
+              <th class="text-center shadow" scope="row">₹55.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Fry Papad</th>
+              <th class="text-center shadow" scope="row">₹40.00</th>
+            </tr><tr>
+              <th scope="row">Masala Papad</th>
+              <th class="text-center shadow" scope="row">₹30.00</th>
+            </tr><tr>
+              <th scope="row">Roasted Papad</th>
+              <th class="text-center shadow" scope="row">₹100.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Egg Boiled</th>
+              <th class="text-center shadow" scope="row">₹55.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Egg Omlet</th>
+              <th class="text-center shadow" scope="row">₹110.00</th>
+            </tr>            
+            <tr>
+              <th scope="row">Egg Half Fry</th>
+              <th class="text-center shadow" scope="row">₹110.00</th>
+            </tr>            
+            <tr>
+              <th scope="row">Egg Bhurji</th>
+              <th class="text-center shadow" scope="row">₹130.00</th>
+            </tr>            
+            <tr>
+              <th scope="row">Egg Pakoda</th>
+              <th class="text-center shadow" scope="row">₹155.00</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card" style="background-color: #FF3A10;">
+        <div class="card-header" id="heading4">
+          <h5 class="mb-0">
+            <button class="btn btn-default btn-lg btn-block bg-white" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4"><b>Veg Starters</b></button>
+          </h5>
+        </div>
+      </div>
+
+      <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">      
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">Veg Spring Roll</th>
+              <th class="text-center shadow" scope="row">₹275.00</th>
+            <tr>
+              <th scope="row" >Veg Crispy</th>
+              <th class="text-center shadow" scope="row">₹275.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Veg Manchurian Dry/Gravy</th>
+              <th class="text-center shadow" scope="row">₹290.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Veg 65</th>
+              <th class="text-center shadow" scope="row">₹265.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Veg Chilly</th>
+              <th class="text-center shadow" scope="row">₹265.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Veg Chrunchy</th>
+              <th class="text-center shadow" scope="row">₹275.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Panner Crispy</th>
+              <th class="text-center shadow" scope="row">₹290.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Panner Chilly</th>
+              <th class="text-center shadow" scope="row">₹290.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Mushroom Manchurian Dry</th>
+              <th class="text-center shadow" scope="row">₹290.00</th>
+            </tr>
+            <tr>
+              <th scope="row">Mushroom 65</th>
+              <th class="text-center shadow" scope="row">₹290.00</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="bottom-footer">
+    <div class="footer container-fluid text-center text-dark py-3" > 
+      <b> &copy; Copyright 2020</b>
+    </div>
+  </div>
+      
+  <!-- javaScripts libraries-->
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- pooper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <!-- bootstrap.js -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
+<!-- created by:-Ganesha Bansa on 18-10-20 -->
